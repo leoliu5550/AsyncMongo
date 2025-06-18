@@ -1,7 +1,5 @@
 from typing import Dict, Any, List, Optional
 from motor.motor_asyncio import (
-    AsyncIOMotorClient,
-    AsyncIOMotorDatabase,
     AsyncIOMotorCollection,
 )
 from app.db.mongo.client import MongoDBClient
